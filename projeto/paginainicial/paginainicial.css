@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(191, 217, 239);
+}
+
+.imagem-clinica{
+    height: 400px;
+    width: 550px;
+}
+
+h3 {
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #71a7e1;
+    border-color: #58859c;
+    border-style:double ;
+    -webkit-text-stroke: 0.5px black;
+}

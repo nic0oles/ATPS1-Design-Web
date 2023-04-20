@@ -1,0 +1,30 @@
+  th,
+  td {
+    text-align: center;
+    padding: 5px;
+    background-color: #eee;
+  }
+  tr{
+    background-color: #63adc6;
+  }
+
+  td {
+    background-color:  #fcfcfc;
+  }
+
+  body {
+    background-color: rgb(191, 217, 239);
+  
+  }
+  .especialidade {
+    background-color: #71a7e1;
+  }
+  p{
+    font-size: 25px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #71a7e1;
+    border-color: #58859c;
+    border-style:double ;
+    -webkit-text-stroke: 0.5px black;
+    margin: 10px;
+  }

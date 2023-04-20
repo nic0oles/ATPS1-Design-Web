@@ -1,0 +1,17 @@
+.titulo{
+    text-align: center; 
+    font-size: 70px;
+    margin: 0;
+    box-shadow: #00ff8c;
+}
+.subt{
+    text-align: center; 
+    font-size: 25px;
+    margin: 0;
+
+}
+
+body{
+    background-color: #71a7e1;
+
+}

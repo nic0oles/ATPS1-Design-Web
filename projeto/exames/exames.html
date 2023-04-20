@@ -1,0 +1,122 @@
+<!doctype html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" <html xmlns="http://www.w3.org/1999/xhtml"
+    xml:lang="pt-br" lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="exames.css" />
+
+    <title>Formulário para exames</title>
+
+</head>
+
+<body>
+
+    <form name="formCadastro">
+
+        <h2 align="center">Formulário para agendamento de exames</h2>
+        <p> Preencha o formulário com os exames que deseja realizar e entraremos em contato para marcar.</p>
+
+        <fieldset>
+
+            <legend>Quais exames deseja realizar?</legend>
+
+            <input type="checkbox" name="chkEcogafria" value="EC" />Ecografia<br>
+            <input type="checkbox" name="chkEndoscopia" value="EN" />Endoscopia<br>
+            <input type="checkbox" name="chkRessonancia" value="RE" />Ressonância Magnética<br>
+            <input type="checkbox" name="chkRaioX" value="RX" />Raio-X<br>
+            <input type="checkbox" name="chkTomografia" value="TO" />Tomografia Computadorizada<br>
+            <input type="checkbox" name="chkMamografia" value="MA" />Mamografia<br>
+            <input type="checkbox" name="chkUltrassonografia" value="US" />Ultrassonografia<br>
+            <input type="checkbox" name="chkHolter" value="HO" />Holter<br>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>| Identificação |</legend>
+
+            <label for="txtNome">Nome:</label>
+
+            <input name="txtNome" maxlength="50" size="50" />
+
+            <p><label for="txtRG">RG:</label>
+
+                <input name="txtRG" maxlength="15" size="15" />
+
+                <label for="txtCPF">CPF:</label>
+
+                <input name="txtCPF" maxlength="20" size="20" />
+            </p>
+
+            <p><label for="txtDataNascimento">Data de nascimento:</label>
+
+                <input type="date" name="txtDataNascimento" />
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>| Endereço |</legend>
+
+            <label for="txtEndereco">Quadra/Número:</label>
+
+            <input name="txtEndereco" maxlength="50" size="50" />
+
+            <input name="txtNumero" maxlength="8" size="8" />
+
+            <p><label for="txtCidade">Cidade:</label>
+
+                <input name="txtCidade" maxlength="40" size="40" />
+            </p>
+
+            <p><label for="cmbEstado">Estado:</label>
+
+                <select name="cmbEstado">
+
+                    <option value="-------"> </option>
+
+                    <option value="DF">Distrito Federal</option>
+
+                    <option value="GO">Goiás</option>
+
+                </select>
+            </p>
+
+            <p><label for="txtCEP">CEP:</label>
+
+                <input name="txtCEP" maxlength="9" size="9" />
+
+                <label for="txtTelefone">Telefone:</label>
+
+                <input type="tel" name="txtTelefone" maxlength="20" size="20" />
+            </p>
+
+            <p><label for="txtEmail">Email:</label>
+
+                <input type="email" name="txtEmail" maxlength="80" size="80" />
+            </p>
+
+            <fieldset>
+
+                <legend>Sexo</legend>
+
+                <input type="radio" name="rbSexo" value="M" />Masculino
+
+                <input type="radio" name="rbSexo" value="F" />Feminino
+
+                <input type="radio" name="rbSexo" value="N" />Não Desejo Informar
+
+            </fieldset>
+
+        </fieldset><br />
+
+        <input name="btnEnviar" value="Enviar" type="submit">&nbsp;
+
+        <input name="btnLimpar" value="Limpar" type="reset">
+
+    </form>
+
+</body>
+
+</html>
